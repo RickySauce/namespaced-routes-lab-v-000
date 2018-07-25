@@ -1,9 +1,2 @@
-class Preference
-
-  def self.create(hash)
-  end 
-
-  def artist_sort_order(order)
-  end
-  
+class Preference < ActiveRecord::Base 
 end
