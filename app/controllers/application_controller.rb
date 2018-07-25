@@ -6,7 +6,7 @@ class ApplicationController < ActionController::Base
   private
 
   def set_preferences
-    @prefences = Prefence.first
+    @prefences = Preference.first
   end
 
 end
