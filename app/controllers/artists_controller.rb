@@ -1,5 +1,6 @@
 class ArtistsController < ApplicationController
   before_action :set_preferences
+
   def index
     @artists = Artist.all
   end
