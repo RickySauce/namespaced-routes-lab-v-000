@@ -50,7 +50,7 @@ class ArtistsController < ApplicationController
     params.require(:artist).permit(:name)
   end
 
-  def set_preferences 
-    @prefences = Prefence.first 
-  end 
+  def set_preferences
+    @prefences = Prefence.first
+  end
 end
