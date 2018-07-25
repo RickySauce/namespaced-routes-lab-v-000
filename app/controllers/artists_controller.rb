@@ -58,7 +58,6 @@ class ArtistsController < ApplicationController
 
   def set_preferences
     @prefences = Preference.first
-  end
-
-
+  end 
+  
 end
