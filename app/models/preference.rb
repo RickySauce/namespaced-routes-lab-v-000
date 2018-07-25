@@ -1,7 +1,7 @@
 class Preference
 
-  def self.create(hello)
-    binding.pry
+  def self.create(hash)
+
   end 
   
 end
