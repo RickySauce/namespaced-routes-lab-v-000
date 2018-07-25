@@ -11,6 +11,7 @@ class ArtistsController < ApplicationController
 
   def new
     if @preferences && !@preferences.allow_create_artists
+      binding.pry
         redirect_to artists_path
     else
       @artist = Artist.new
