@@ -1,6 +1,6 @@
 class Preference
 
-  def self.create (hello)
+  def self.create(hello)
     binding.pry
   end 
   
