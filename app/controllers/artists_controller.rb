@@ -1,4 +1,5 @@
 class ArtistsController < ApplicationController
+  before_action :set_preferences
   def index
     @artists = Artist.all
   end
@@ -50,7 +51,4 @@ class ArtistsController < ApplicationController
     params.require(:artist).permit(:name)
   end
 
-  def set_preferences
-    @prefences = Prefence.first
-  end
 end
