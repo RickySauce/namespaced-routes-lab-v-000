@@ -10,6 +10,7 @@ class ArtistsController < ApplicationController
   end
 
   def new
+    if !@preferences.allow_create_artists
     @artist = Artist.new
   end
 
